@@ -19,7 +19,7 @@ jobs:
           node-version: 24
           cache: npm
 
-      - run: npm ci
+      - run: npm install
 
       - name: Type check and build
         run: npm run build
