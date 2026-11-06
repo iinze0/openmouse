@@ -1,9 +1,9 @@
 name: Update Mouse Protocol
 
 on:
-  schedule:
-    # Avoid the top of the hour, when scheduled workflows are most likely to queue.
-    - cron: "17 * * * *"
+  # schedule:
+  #   # Avoid the top of the hour, when scheduled workflows are most likely to queue.
+  #   - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:
