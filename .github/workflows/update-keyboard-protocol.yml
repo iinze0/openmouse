@@ -1,9 +1,9 @@
 name: Update Keyboard Protocol
 
 on:
-  # schedule:
-  #   # Avoid the top of the hour, when scheduled workflows are most likely to queue.
-  #   - cron: "37 * * * *"
+  schedule:
+    # Avoid the top of the hour, when scheduled workflows are most likely to queue.
+    - cron: "37 * * * *"
   workflow_dispatch:
 
 permissions:
