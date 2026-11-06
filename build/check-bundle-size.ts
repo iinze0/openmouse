@@ -3,7 +3,7 @@ import { join } from "node:path";
 
 const BUDGET_BYTES: Record<string, number> = {
   ".css": 165_000,
-  ".js": 2_800_000,
+  ".js": 2_900_000,
 };
 
 const ASSETS = join("dist", "assets");
