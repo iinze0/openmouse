@@ -49,6 +49,8 @@ jobs:
       - name: Validate control panel
         if: steps.protocol.outputs.changed == 'true'
         run: |
+          rm -rf node_modules
+          npm ci
           npm run check
           npm run size
           npm audit --audit-level=high
